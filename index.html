@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html"; charset="UFT-8"/>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+        <title>Encriptador de Texto</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+        <script type="text/javascript" src="script.js"></script> 
+    </head>
+    <body>
+        <header>
+            <img src="Imagenes/Logo.png" alt="Imagen de alura">
+        </header> 
+        <main>
+            <section class="seccionUno">
+                <div class="text-input">
+                    <textarea class="area" placeholder="Ingrese el texto aqui" id="inputTexto"></textarea>
+                </div>
+                <div class="nota">
+                    <h1>!</h1>
+                    <p>Solo letras minúsculas y sin acentos</p>
+                </div>
+                <div class="containerButton">
+                    <input class="btn-encriptar" type="button" value="Encriptar" onclick="encriptar()">
+                    <input class="btn-desencriptar" type="button" value="Desencriptar" onclick="desencriptar()">
+                </div>
+            </section>
+            <section class="seccionDos">
+                <div class="containerMunheco">
+                    <img id="mono" src="Imagenes/Muñeco.png" alt="Muñeco de alura">
+                </div>
+                <div class="texto">
+                    <h1 id="textoUno">Ningún mensaje fue encontrado</h1>
+                </div>
+                <div class="textoDos">
+                    <h2>Ingresa el texto que desees encriptar o desencriptar</h2>
+                </div>
+                <div class="containerResultado">
+                    <h3 id="msj">Su mensaje:</h3>
+                    <textarea name="caja" id="caja" cols="8"></textarea>
+                    <input id="copy" type="button" name="copiar" value="¡Copiar!" onclick="copiar()">
+                </div>
+            </section> 
+        </main>
+        <footer>
+            <div class="informacion">
+                <div class="copy">
+                    <p>&#169 Todos los derechos recerbados <a href="https://www.aluracursos.com/" target="_blank">Alura</a> 2023 Creado por Xavier Del Angel</p>
+                </div>
+               <div class="perfil">
+                    <a href="https://github.com/Xavier-Del-Angel" target="_blank"><img class="git" src="Imagenes/github.png" alt="Perfil de github"></a>
+                    <a href="https://www.linkedin.com/in/xavier-del-angel-/" target="_blank"><img class="lin" src="Imagenes/linkedin.png" alt="Perfil de linkedin"></a>
+                </div>
+            </div>
+        </footer>   
+    </body>   
+</html>    

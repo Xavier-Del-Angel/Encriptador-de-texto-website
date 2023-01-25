@@ -1,0 +1,294 @@
+body{
+    background: #E5E5E5;
+}
+header{
+    width: 100%;
+    height: 50px;
+}
+main{
+    width: 100%;
+    height: 37.5em;
+    display: flex;
+    justify-content: space-between;
+}
+section{
+    width: 40%;
+    height: auto;
+}
+.seccionUno{
+    width: 70%;
+}
+.text-input{
+    width: 80%;
+    height: 70%;
+}
+.area{
+    margin-left: 10%;
+    margin-top: 5%;
+    width: 80%;
+    height: 60%;
+    color: #0A3871;
+    border: none;
+    outline: none;
+    background: #E5E5E5;
+    text-align: center;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 32px;
+    resize: none;
+}
+.nota{
+    width: 80%;
+    height: auto;
+}
+.nota h1{
+    float: left;
+    width: 17px;
+    height: 17px;
+    text-align: center;
+    border-radius: 50%;
+    color: #E5E5E5;
+    background: #495057;
+    margin: 5px 0 0 30px;
+}
+.nota p{
+    margin-top: 3%;
+    padding-inline: 15%;
+    width: 250px;
+    height: 18px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: #495057;
+    opacity: 0.8;
+}
+.containerButton{
+    height: 130px;
+}
+.btn-encriptar{
+    margin: 15px 15px;
+    width: 40%;
+    padding: 24px 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1px;
+    color: #FFFFFF;
+    background: #0A3871;
+    border: 1px solid #D8DFE8;
+    border-radius: 24px;
+    border: none;
+    cursor: pointer;
+}
+.btn-desencriptar{
+    margin: 15px 15px;
+    padding: 24px 0;
+    width: 40%;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1px;
+    color: #0A3871;
+    border-radius: 24px;
+    background: #D8DFE8;
+    border: 1px solid #0A3871;
+    cursor: pointer;
+}
+.seccionDos{
+    width: 20%;
+    border-radius: 25px;
+    background: #FFFFFF;
+    box-sizing: border-box;
+}
+.containerMunheco{
+    width: 100%;
+    height: 55%;
+}
+#mono{
+    width: 100%;
+    height: 60%;
+    margin-top: 30%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.texto{
+    width: 100%;
+    height: 50px;
+}
+#textoUno{
+    text-align: center;
+    color: #343A40;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+    box-sizing: border-box;
+}
+.textoDos{
+    text-align: center;
+    color: #495057;
+    width: auto;
+    margin-top: 20%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.containerResultado{
+    text-align: center;
+    width: auto;
+    height: auto;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+#msj{
+    text-align: center;
+    color: #495057;
+    width: auto;
+    height: 30px;
+    box-sizing: border-box;
+    overflow: hidden;
+    display: none;
+    font-size: 20px;
+}
+#caja{
+    text-align: center;
+    color: #495057;
+    width: 200px;
+    height: 10em;
+    margin: auto;
+    border: none;
+    outline: none;
+    resize: none;
+    box-sizing: border-box;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+    display: none;
+}
+#copy{
+    margin: auto;
+    margin-top: 15px;
+    padding: 10px;
+    font-size: 16px;
+    width: 40%;
+    height: 10%;
+    color: #0A3871;
+    border: 1px solid #0A3871;
+    background: #D8DFE8;
+    border-radius: 24px;
+    display: none;
+}
+footer{
+    width: 100%;
+    height: 35px;
+}
+.informacion{
+    width: 100%;
+    margin: auto;
+}
+.informacion p{
+    color: #495057;
+}
+.informacion a{
+    color: #0A3871;
+    text-decoration: none;
+}
+.copy{
+    text-align: center;
+}
+.perfil{
+    margin-top: 5px;
+    text-align: center;
+}
+.git{
+    width: 3%;
+    margin-right: 10px;
+}
+.lin{
+    width: 3%;
+    margin-left: 10px;
+}
+
+/* paguina responsive */
+
+@media screen and (max-width: 1200px){
+    main{
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    .seccionUno{
+        width: 100%;
+        height: 60%;
+    }
+    .text-input{
+        width: 100%;
+        height: 40%;
+    }
+    .area{
+        margin-left: 10%;
+        margin-top: 5%;
+        width: 80%;
+        height: 60%;
+        color: #0A3871;
+        border: none;
+        outline: none;
+        background: #E5E5E5;
+        text-align: center;
+        font-family: 'Inter';
+        font-weight: 400;
+        font-size: 32px;
+        resize: none;
+    }
+    .nota{
+        width: 100%;
+        height: 15%;
+    }
+    .containerButton{
+        width: auto;
+        height: auto;
+    }
+    .seccionDos{
+        width: auto;
+        height: 35%;
+    }
+    .containerMunheco{
+        display: none;
+    }
+    .texto{
+        margin-top: 5%;
+    }
+    .textoDos{
+        margin-top: 20px;
+    }
+    #caja{
+        text-align: center;
+        color: #495057;
+        width: 200px;
+        height: auto;
+        margin: auto;
+        border: none;
+        outline: none;
+        resize: none;
+        box-sizing: border-box;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 150%;
+    }
+    footer{
+        width: 100%;
+        height: 60px; 
+        margin-top: 5%;
+    }
+    .git{
+        width: 5%;
+        margin-right: 10px;
+    }
+    .lin{
+        width: 5%;
+        margin-left: 10px;
+    }
+}
